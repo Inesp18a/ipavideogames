@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(60, 190, 252);
+}
+p {
+    color: rgb(255, 255, 255);
+    margin: 20;
+}
+h1 {
+    font-size:70px;
+    text-align:center;
+    color: white;
+}
+div {
+    text-align: center;
+}
+a:link  {
+    color: gold;
+}
+a:visited { color: rgb(139, 0, 0); 
+}
+a:hover { 
+   color: rgb(6, 65, 14);
+   background-color: rgb(251, 131, 179);
+   font-family: impact; 
+}
+a:active {
+    color: navy ;
+}
+h2 {
+color: #ff1b82;
+}
+body {
+    margin: 20;
+}
+.sect {
+    width: 100%;
+    min-height: 500px;
+}
+#sect1 {
+    color: rgb(255, 255, 255);
+}
+#sect2 {
+    background-color: rgba(60, 191, 252, 0.438);
+    color: #ffffff;
+    position:absolute;
+    z-index:50;
+}
