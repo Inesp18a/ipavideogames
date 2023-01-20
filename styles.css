@@ -1,15 +1,21 @@
 body {
-    background-color: rgb(60, 190, 252);
+    background-color: #3cbefc;
+    margin: 35px;
 }
 p {
     color: rgb(255, 255, 255);
     margin: 20;
+    font-size: 20px;
 }
 h1 {
     font-size:70px;
     text-align:center;
-    color: white;
+    color: #ffffff;
 }
+h2 {
+    color: #ff1b82;
+    font-size: 35px;
+}    
 div {
     text-align: center;
 }
@@ -26,22 +32,29 @@ a:hover {
 a:active {
     color: navy ;
 }
-h2 {
-color: #ff1b82;
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
-body {
-    margin: 20;
-}
-.sect {
-    width: 100%;
-    min-height: 500px;
-}
-#sect1 {
-    color: rgb(255, 255, 255);
-}
-#sect2 {
-    background-color: rgba(60, 191, 252, 0.438);
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: #ffffff;
-    position:absolute;
-    z-index:50;
+    font-size: 150px;
+    font-family: cursive;
+}
+.centrado2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 100px;
+    font-family: cursive;
 }
