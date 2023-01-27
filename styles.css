@@ -63,3 +63,33 @@ a:active {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#ff1b82
 }
+table {
+    width: 100%;
+    border: 1px solid #ff1b82;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0 0 1em 0;
+    caption-side: top;
+ }
+ caption, td, th {
+    padding: 0.3em;
+ }
+ th, td {
+    border-bottom: 1px solid #cf2270a2;
+    width: 25%;
+ }
+ thead {
+    background-color:#3cbefc;
+    font-size: 30px;
+    text-align: center;
+ }
+ tbody {
+    background-color: #cf22705e;
+}
+ caption {
+    font-weight: bold;
+    font-style: italic;
+ }
+ #mode {font-size: 20px;
+    text-align: center;
+}
